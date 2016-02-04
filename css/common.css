@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* common */
+body{font-size:12px; margin:0; padding:0;  width:100%;}
+p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea{margin:0; padding:0; list-style:none; }
+img,fieldset{border:0;}
+legend, caption{text-indent:-9999px;}
+a,button{text-decoration:none;cursor:pointer; margin:0; padding:0;}
+em,address{font-style:normal;}
+a:hover{text-decoration:underline;}
+
+/* Layout */
+#wrap{clear:both; width:100%; margin:0 auto;font-family:dotum,'����', gulim, '����',Helvetica,Apple-Gothic,sans-serif;}
+#header{clear:both; width:100%; height:104px; background:#685cc8; border-bottom:1px solid #433994; border-top:1px solid #433994;  margin:0 auto; display:block;}
+#container{ clear:both; width:980px; margin:0 auto; zoom:1; display:block;  position:relative; /*margin-top:24px;*/}
+#container:after{clear:both; content:""; display:block;}
+
+
+/* 메뉴로고 */
+.hd{clear:both; width:980px; margin:0 auto; padding-top:15px; text-align:center; display:block;}
+.hd h1.logo{float:left; width:158px; display:block;}
+.hd h1.logo img{width:158px; height:71px; border:none;}
+
+
+
+/* 검색창 */
+.search{float:right; width:300px; overflow:hidden; display:block;}
+.search span{float:left; width:500px; font-size:12px; letter-spacing:-1px; line-height:30px; display:block;}
+.search span.search_tit{width:140px; font-weight:bold; color:#f8fb03; text-align:left; display:block;}
+.search span.search_name{width:130px; font-size:12px; color:#fff; text-align:left; display:block;}
+.search span.search_name a{color:#fff;}
+.search span.search_name a:hover{color:#fff; text-decoration:underline;}
+
+.search span.search_form{float:right; width:300px; margin-top:4px; display:block;}
+
+.search span.search_form  fieldset{width:300px; height:35px; padding:0; margin:0; position:relative; display:block;}
+.search span.search_form  fieldset .schide{height:1px; width:1px; position:absolute; top:-9999px; left:-9999px;}
+.search span.search_form  fieldset .input{border: 1px solid #4438aa; display:inline; width:280px; height: 33px; position:absolute; left:0px; top:0px; font-size:14px; font-weight:bold; color:#222; font-family:dotum; outline: none; background:#FFF; display:block;}
+.search span.search_form  fieldset .btn{width:46px; height:35px; cursor: pointer; position:absolute; top:0px; right:0px; z-index:10px; display:block;}
+
+
+
+
+/* 풋터 */
+#footer{ margin:0 auto; width:980px; border-top:2px solid #534d7e; padding-top:20px; text-align:left; margin-bottom:50px;  margin-top:30px; }
+#footer ul li{float:left}
+.line{margin-left:3px;margin-right:3px;color:#B1B1B1}
+.ft_policy{ clear:both; width:980px;color:#767575}
+
+#scfooter{ margin:0 auto; width:980px; border-top:2px solid #31569c; padding-top:20px; text-align:left; margin-bottom:50px;  margin-top:30px; }
+
+#scfooter .scft_policy{ clear:both; width:980px;}
+#scfooter .scft_policy h2{ float:left; width:135px;}
+#scfooter .scft_list{ float:left; padding-top:3px;}
+#scfooter .ft_list li{float:left; padding-right:9px; letter-spacing:-1px; color:#ccc; font-size:11px;}
+#scfooter .ft_list li a{color:#777;}
+#scfooter .ft_list li a:hover{text-decoration:underline;}
+#scfooter .scft_family{float:right; position:relative; width:126px; height:21px;}
+
+#scfooter p .scaddress{ clear:both; margin-left:135px; font-size:11px; color:#777; padding-top:6px;}

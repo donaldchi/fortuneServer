@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*common*/
+
+.tab{height:30px; width:100%; margin-bottom:15px; clear:both; }
+.tab ul{height:31px; width:100%;  border-bottom:solid 1px #d7d7d7;}
+.tab li{float:left; display:block; overflow:hidden; height:30px; background:url(../images/common/tabbg1.png) 0 0 no-repeat; text-align:center; padding-top:10px; margin-top:2px; margin-right:5px;}
+.tab li a{ text-decoration:none; color:#5a5a5a; }
+.tab .off{width:147px; background-position:-146px 0;}
+.tab .on{width:147px;  font-weight:bold; background-position:0 0; }
+.tab .end{ margin-right:0;}
+
+
+/*오늘의 운세*/
+.freetit{height:61px;width: 800px; border-top:solid 1px #e1e1e1; border-bottom:solid 1px #e1e1e1; margin: 0 auto;text-align: center;}
+.freetit img{width: 744px;}
+
+
+.todaydate{ width:600px; text-align:center; background:url(../images/common/gray_linebg.png) repeat-x 0 bottom; margin-bottom:10px; margin-top:10px; padding:10px 0; }
+.todaydate p{display:inline; letter-spacing:-0.3em; padding:10px 0; }
+.today2 .conts .wordfortune{width:734px; margin-top:10px; clear:both;}
+.today2 .conts .wordfortune em{font-size:14px;  color:#C57600;  font-weight:bold; margin-left:10px; }
+.today2 .conts .wordfortune .story1{ line-height:22px; text-align:left; }
+.today2 .box{/* margin-left:10px; */margin-top: 30px;}
+.today2 .conts .box2{ background:#efeaf4; padding:5px; border:solid 1px #dbd5e2; border-radius:10px; -webkit-border-radius:10px; margin-top:10px;}
+.today2 .conts .box2 .in{ background:#fff; padding:15px; border-radius:10px; -webkit-border-radius:10px; line-height:20px; }
+.today2 .conts .fortune .title{font-size:15px; font-weight:bold; margin:15px 0 10px 0; text-align:left;  }
+.today2 .fortune{ clear:both; display:block; }
+.today2 .fortune dl{ padding-bottom:10px; width:734px; display:block; }
+.today2 .fortune .fortune1{border-bottom:dashed 1px #dbd5e2;}
+.today2 .fortune .for_img{ width:119px; display:block; *float:left; }
+.today2 .fortune .story{color:#5a5a5a;  background:#f9f9f9; padding:10px; line-height:22px; border:solid 1px #ebebeb;  width:580px; height:auto;  text-align:left; display:block;  }
+.today2 .conts .fortune dd{display:inline-block; vertical-align:top; }
+.today2 .conts .direction{border:solid 1px #dbd5e2; padding:10px; display:block; border-radius:10px; -webkit-border-radius:10px; margin:10px 0; clear:both; }
+
+.today2 .conts .direction dt{font-size:15px; font-weight:bold; color:#605ca8; text-align:center; padding-bottom:5px; border-bottom:dotted 1px #dbd5e2; clear:both;}
+.today2 .conts .direction dd{ text-align:left; display:block;  }
+.today2 .conts .direction dd img{*float:left; margin:10px 0;}
+.today2 .conts .direction dd em{ line-height:22px; width:530px; margin-left:20px; margin-top:20px; background:#f9f9f9; color:#5a5a5a; float:right; padding:10px; margin-left:20px;  }
+/*.today .conts .direction{border:solid 1px #dbd5e2; margin:10px 0; padding:10px;   border-radius:10px; -webkit-border-radius:10px; margin:20px 0; clear:both; display:block;}
+.today .conts .direction dt{font-size:15px; font-weight:bold; color:#605ca8; text-align:center; padding-bottom:5px; border-bottom:dotted 1px #dbd5e2;}
+.today .conts .direction dl{ padding:10px 0; }
+.today .direction .story{color:#5a5a5a;  background:#f9f9f9; padding:10px; margin-left:20px; height:130px; line-height:22px; width:530px; text-align:left; clear:both; }*/
+
+.today2 .conts .score{width:730px; margin:10px 0 10px 140px;  }
+.today2 .conts .score .score_bg{ background:url(../images/free/today_icon01.png) 0 0 no-repeat;width:101px; height:62px; font-weight:bold; padding:25px 0 20px 0;  text-align:center; display:block; float:left;}
+.today2 .conts .score .score_bg em{color:#b61807; font-size:50px; letter-spacing:-0.1em;  }
+.today2 .conts .score dl{width:320px; margin-left:110px; padding:20px 0;}
+.today2 .conts .score dt{ margin:10px 0; }
+.today2 .conts .score .score_bx{ background:#e1e1e1;  height:12px; position:relative;}
+.today2 .conts .score .score_bx div{ background:url(/images/free/today_back.png) 0 0 repeat-x;  position:absolute;   }
+
+
+
+/*오늘의운세비회원*/
+.nomb .bg{ margin:20px 0 30px 0;}
+.nomb .bt{text-align:center; background:url(../images/free/today_nomember.jpg) 0 bottom no-repeat; width:734px; height:817px; position:relative;  }
+.nomb .bt a{width:253px; height:64px; position:absolute; top:715px; left:240px;   }
+.sjoinbenefit p{margin-bottom:20px;}
+
+
+
+/*별자리운세*/
+.stella{margin-top:20px;}
+.stella .box{margin-left:30px;}
+.stella .sign{ padding:0 30px;}
+.stella .sign li{ height:132px; width:109px; text-indent:-9999px;float: left;}
+.stella .sign a{float:left; display: block; overflow:hidden; height:132px; background:url(../images/free/stella_sign.jpg) no-repeat 0 0; width:109px;}
+.stella .sign a.sign01{}
+.stella .sign a.sign02{background-position:-109px 0;}
+.stella .sign a.sign03{background-position:-218px 0;}
+.stella .sign a.sign04{background-position:-327px 0;}
+.stella .sign a.sign05{background-position:-436px 0;}
+.stella .sign a.sign06{background-position:-545px 0;}
+.stella .sign a.sign07{background-position:0 -132px;}
+.stella .sign a.sign08{background-position:-109px -132px;}
+.stella .sign a.sign09{background-position:-218px -132px;}
+.stella .sign a.sign10{background-position:-327px -132px;}
+.stella .sign a.sign11{background-position:-436px -132px;}
+.stella .sign a.sign12{background-position:-545px -132px;}
+
+.stella .stella_tab{/* width:100%; */ height:96px;  border-bottom:solid 1px #ccc;  cursor:pointer; border-top:solid 1px #534b8d; background:#f9f9f9; margin-top:20px;  /* padding-left: 30px; */text-indent:-9999px;float: left;}
+.stella .stella_tab li{height:96px; width:104px; float:left; /* padding: 0 2px 0 5px; */}
+.stella .stella_tab a
+{float:left; display:block; overflow:hidden; height:96px; width:104px; background:url(/images/free/stella_tab.png) no-repeat 0 0;}
+
+.stella .stella_tab a.tab01{}
+.stella .stella_tab a.tab02{width:104px; background-position:-104px 0;}
+.stella .stella_tab a.tab03{width:104px; background-position:-208px 0;}
+.stella .stella_tab a.tab04{width:104px; background-position:-313px 0;}
+.stella .stella_tab a.tab05{width:105px; background-position:-416px 0;}
+.stella .stella_tab a.tab06{width:104px; background-position:-520px 0;}
+.stella .stella_tab a.tab07{width:104px; background-position:-624px 0;}
+
+.stella .stella_tab a.on1{width:104px; background-position:0 -101px;}
+.stella .stella_tab a.on2{width:104px; background-position:-104px -101px;}
+.stella .stella_tab a.on3{width:104px; background-position:-208px -101px;}
+.stella .stella_tab a.on4{width:104px; background-position:-313px -101px;}
+.stella .stella_tab a.on5{width:105px; background-position:-416px -101px;}
+.stella .stella_tab a.on6{width:104px; background-position:-520px -101px;}
+.stella .stella_tab a.on7{width:104px; background-position:-624px -101px;}
+
+.stella .conts .stbox{width: 686px;border:solid 1px #e1e1e1; padding:30px 20px;  border-top:none;float: left;}
+.stella .conts .stbox .title{border-bottom: dotted 1px #d7d7d7; padding-bottom:10px; }
+.stella .conts .stbox .title dt{background:url(../images/member/bullet2.png) no-repeat 0 20%; padding-left:20px; margin-right:6px; color:#605ca8; font-size:15px; font-weight:bold; float:left;}
+.stella .conts .stbox .title dd{color:#363636; font-size:11px; padding-top:2px; }
+.stella .conts .stbox .result{ margin-top:20px; letter-spacing:-0.2px; line-height:20px; color:#5a5a5a;}
+
+
+/*꿈해몽*/
+.dream1 h3{height:61px; margin-bottom:35px; border-bottom:solid 1px #e1e1e1;}
+.dream1 .search{/* clear: both; */width: 600px; margin:0 auto; text-align:center; padding-bottom:30px; *zoom:1; }
+.dream1 .search:after{content:""; display:block; clear:both;}
+.dream1 .search h4{ float:left; margin:5px 12px 0 0}
+.dream1 .search fieldset{/* width: 10px; */ position:relative; float:left;}
+.dream1 .search fieldset span{display:block; width:292px; height:27px; border:2px solid #534c8d; border-right:none;}
+.dream1 .search fieldset input{border:1px solid #fff; margin:3px 0 0 15px; width:265px; height:20px;outline:none;}
+.dream1 .search fieldset button{background:url(/images/sub/star/btn_search.gif) 0 0 no-repeat; width:59px; height:31px; border:none; position:absolute; right:0; top:0;} 
+.dream1 .search fieldset .bn_s{/* float: left; */width: 300px; height:23px; /* margin-top:10px; */}
+.dream1 .search fieldset .bn_s li{ float:left;width: 20px;margin-top: 10px;padding-right:7px;color:#707070; white-space:nowrap;}
+.dream1 .search fieldset .bn_s li a{ color:#707070}
+.dream1 .search fieldset .bn_s li a:hover{font-weight:bold;}
+.dream1 .top{clear: both;/* border:solid 1px #e1e1e1; */ border-top:solid 2px #534b8d;  }
+
+.dream1 .top .dream1_tab{width:100%; height:96px;  border-bottom:solid 1px #e1e1e1; background:#f9f9f9;  cursor:pointer; padding:0 1px; text-align: center; text-indent:-9999px;}
+.dream1 .top .dream1_tab li{  *height:96px; *float:left; }
+.dream1 .top .dream1_tab a{float:left; display: block; overflow:hidden; height:96px; background:url(../images/dream/tab_dream.png) 0 0 no-repeat; }
+.dream1 .top .dream1_tab a.tab01{width:74px;}
+.dream1 .top .dream1_tab a.tab02{width:74px; background-position:-74px 0;}
+.dream1 .top .dream1_tab a.tab03{width:73px; background-position:-148px 0;}
+.dream1 .top .dream1_tab a.tab04{width:73px; background-position:-221px 0;}
+.dream1 .top .dream1_tab a.tab05{width:73px; background-position:-294px 0;}
+.dream1 .top .dream1_tab a.tab06{width:73px; background-position:-367px 0;}
+.dream1 .top .dream1_tab a.tab07{width:73px; background-position:-440px 0;}
+.dream1 .top .dream1_tab a.tab08{width:73px; background-position:-513px 0;}
+.dream1 .top .dream1_tab a.tab09{width:73px; background-position:-586px 0;}
+.dream1 .top .dream1_tab a.tab10{width:73px; background-position:-659px 0;}
+
+.dream1 .top .dream1_tab a.on1{width:74px; background-position:0 -104px;}
+.dream1 .top .dream1_tab a.on2{width:74px; background-position:-74px -104px;}
+.dream1 .top .dream1_tab a.on3{width:73px; background-position:-148px -104px;}
+.dream1 .top .dream1_tab a.on4{width:73px; background-position:-221px -104px;}
+.dream1 .top .dream1_tab a.on5{width:73px; background-position:-294px -104px;}
+.dream1 .top .dream1_tab a.on6{width:73px; background-position:-367px -104px;}
+.dream1 .top .dream1_tab a.on7{width:73px; background-position:-440px -104px;}
+.dream1 .top .dream1_tab a.on8{width:73px; background-position:-513px -104px;}
+.dream1 .top .dream1_tab a.on9{width:73px; background-position:-586px -104px;}
+.dream1 .top .dream1_tab a.on10{width:73px; background-position:-659px -104px;}
+
+
+.dream1 .top .dream1_cont{ padding:10px; }
+.dream1 .top .dream1_cont ul{ width:712px;}
+.dream1 .top .dream1_cont li{display:inline-block; background:url(../images/common/bullet1.png) no-repeat 0 20%; padding-left:10px; margin: 3px 10px; *float:left;}
+.dream1 .top .dream1_cont li a{color:#363636;}
+
+.dream1 .conts{ float:left;} 
+.dream1 .conts h4{ background:url(../images/common/bullet2.png) no-repeat 0 30%; padding-left:20px; color:#605ca8; font-size:15px; font-weight:bold; margin:15px 0 10px 0;} 
+.dream1 .conts .box{width: 754px;border:solid 3px #e1e1e1; padding:20px; }
+.dream1 .conts .title{height:25px; border-top:solid 1px #534b8d; background:#f9fafc; border-bottom:solid 1px #e1e1e1; padding:10px 0 0 20px;}
+.dream1 .conts .key{ font-weight:bold; background:#ffff00; padding:1px;}
+.dream1 .conts dl{border-bottom:dotted 1px #e1e1e1;}
+.dream1 .conts dl.first{border:none;}
+.dream1 .conts dt{ background:url(../images/common/bullet5.png) no-repeat 0 45%; padding:10px 0 10px 15px;  }
+.dream1 .conts dt a{color:#363636;}
+.dream1 .conts dt.on a{color:#605ca8;  font-weight:bold; text-decoration:underline;}
+.dream1 .conts dd{ padding:10px 10px 10px 20px; margin-left:15px; margin-bottom:10px; border:solid 1px #e1e1e1; color:#5a5a5a; line-height:20px; }
+.dream1 .pageNavi{ width:100%; text-align:center; margin:10px;  }
+.dream1 .pageNavi a{display:inline-block; padding:3px; margin:0 2px;  color:#898989; font-size:14px; border:solid 1px #CCC; width:18px; height:16px; }
+.dream1 .pageNavi a:hover,
+.dream1 .pageNavi a.over{font-weight:bold; color:#605ca8; border:solid 1px #605ca8; }
+
+
+/*띠별운세*/
+.zodiac{margin-top:20px;}
+.zodiac .box{ margin-left:10px; margin-top:20px;}
+.zodiac .sign{ padding:0 30px; margin-bottom:20px;}
+.zodiac .sign li{ height:132px; width:109px; float:left; text-indent:-9999px; }
+.zodiac .sign a{float:left; display: block; overflow:hidden; height:132px; background:url(../images/free/zodiac_sign.jpg) no-repeat 0 0; width:109px;}
+.zodiac .sign a.sign01{background-position:0 0;}
+.zodiac .sign a.sign02{background-position:-109px 0;}
+.zodiac .sign a.sign03{background-position:-218px 0;}
+.zodiac .sign a.sign04{background-position:-327px 0;}
+.zodiac .sign a.sign05{background-position:-436px 0;}
+.zodiac .sign a.sign06{background-position:-545px 0;}
+.zodiac .sign a.sign07{background-position:0 -132px;}
+.zodiac .sign a.sign08{background-position:-109px -132px;}
+.zodiac .sign a.sign09{background-position:-218px -132px;}
+.zodiac .sign a.sign10{background-position:-327px -132px;}
+.zodiac .sign a.sign11{background-position:-436px -132px;}
+.zodiac .sign a.sign12{background-position:-545px -132px;}
+
+
+.zodiac .conts .zbox{ padding:20px 0;}
+.zodiac .conts .zbox .title dt{background:url(../images/member/bullet2.png) no-repeat 0 20%; padding-left:20px; margin-right:6px; color:#605ca8; font-size:15px; font-weight:bold;}
+.zodiac .conts .zbox .title dd{ padding:10px 0 10px 20px; margin:10px 0 20px 0; border:solid 1px #e1e1e1;  font-weight:bold; color:#C57600; }
+.zodiac .conts .zbox .year table{border-top:solid 1px #605ca8; border-bottom:solid 1px #605ca8;}
+.zodiac .conts .zbox .year th,
+.zodiac .conts .zbox .year td{height:35px; border-bottom:dotted 1px #e1e1e1;}
+.zodiac .conts .zbox .year th{text-align:center; background:#f9fafc; color:#4a4287; }
+.zodiac .conts .zbox .year td{ padding-left:15px;}
+.zodiac .conts .zbox .year .end{ border-bottom:none;}
+
+/*혈액형 운세*/
+.blood .box{margin-left:10px;}
+
+.blood .type{margin-bottom:35px; padding: 0 140px; }
+.blood .type li{*height:105px; *float:left; text-indent:-9999px;}
+.blood .type a{float:left; display: block; overflow:hidden; height:105px; background:url(../images/free/blood_type2.jpg) no-repeat 0 0;}
+.blood .type a.type01{width:115px;}
+.blood .type a.type02{width:125px; background-position:-115px 0;}
+.blood .type a.type03{width:125px; background-position:-240px 0;}
+.blood .type a.type04{width:115px; background-position:-365px 0;}
+.blood .type a.on1{width:115px; background-position:0 -110px;}
+.blood .type a.on2{width:125px; background-position:-115px -110px;}
+.blood .type a.on3{width:125px; background-position:-240px -110px;}
+.blood .type a.on4{width:115px; background-position:-365px -110px;}
+.blood .conts .bdbox{float: left;width: 740px;margin-top: 30px;border:solid 3px #e1e1e1; padding:20px;}
+.blood .conts .bdbox .title{background:url(../images/member/bullet2.png) no-repeat 0 20%; padding:0 0 10px 20px; margin-right:6px; color:#605ca8; font-size:15px; font-weight:bold; border-bottom:dotted 1px #e1e1e1;}
+.blood .conts .bdbox .result{ margin-top:20px; letter-spacing:-0.2px; line-height:20px; color:#5a5a5a;}
+.blood .conts .bdbox .sex{background:url(../images/common/bullet1.png) no-repeat 0 20%; padding-left:10px; margin-left:10px;}
+
+/*혈액형 궁합*/
+.blood2 .bdgbox{margin-left:10px;}
+.blood2 .wtype{ float: left;padding-left:100px; background:url(../images/free/blood_msex.jpg) no-repeat top left; margin-left:80px; margin-top:50px; }
+.blood2 .mtype{ float: left;padding-left:100px; margin-bottom:20px; background:url(../images/free/blood_wsex.jpg) no-repeat bottom left; margin-left:80px; margin-top:30px; position:relative; }
+.blood2 .wtype li,
+.blood2 .mtype li{height:105px; float:left; text-indent:-9999px;}
+.blood2 .wtype a,
+.blood2 .mtype a{float:left; display: block; overflow:hidden; height:105px; background:url(../images/free/blood_type2.jpg) 0 0 no-repeat;}
+.blood2 .wtype a.type01,.blood2 .mtype a.type01{width:115px;}
+.blood2 .wtype a.type02,.blood2 .mtype a.type02{width:125px; background-position:-115px 0;}
+.blood2 .wtype a.type03,.blood2 .mtype a.type03{width:125px; background-position:-240px 0;}
+.blood2 .wtype a.type04,.blood2 .mtype a.type04{width:115px; background-position:-365px 0;}
+
+.blood2 .wtype a.on1,.blood2 .mtype a.on1{width:115px; background-position:0 -110px;}
+.blood2 .wtype a.on2,.blood2 .mtype a.on2{width:125px; background-position:-115px -110px;}
+.blood2 .wtype a.on3,.blood2 .mtype a.on3{width:125px; background-position:-240px -110px;}
+.blood2 .wtype a.on4,.blood2 .mtype a.on4{width:115px; background-position:-365px -110px;}
+.blood2 .bt{ width: 800px;text-align:center; padding-top:30px; float: left;}
+.blood2 .result .wmtype{display:inline-block; height:120px; width:730px; margin-left:20px; margin-bottom:50px; position:relative; }
+.blood2 .result .wtype{background:none;width:115px; height:105px; float:left;  margin-left:60px;}
+.blood2 .result .mtype{background:none;width:115px; height:105px; float:right; margin-right:160px;}
+.blood2 .result .sex2 img{ width:157px; position:absolute; margin-top:30px; }
+
+.blood2 .result .gungscore{ position:relative; margin-left:70px; }
+.blood2 .result .gungscore span{ position:absolute; top:15px; left:410px; font-size:60px; font-weight:bold; letter-spacing:-0.2px; color:#524b8c;}
+.blood2 .result .story{ padding:20px; letter-spacing:-0.2px; line-height:20px; color:#5a5a5a; }
+
+/*탄생석점*/
+.birthstone .box{margin-left:10px;}
+.birthstone .type{ margin-bottom:20px; padding:0 30px 0 60px; }
+.birthstone .type li{height:130px; width:108px; float:left; text-indent:-9999px;}
+.birthstone .type a{float:left; display: block; overflow:hidden; height:130px; background:url(../images/free/birthstone_type.jpg) no-repeat 0 0; width:108px;}
+.birthstone .type a.type01{}
+.birthstone .type a.type02{background-position:-108px 0;}
+.birthstone .type a.type03{background-position:-216px 0;}
+.birthstone .type a.type04{background-position:-324px 0;}
+.birthstone .type a.type05{background-position:-432px 0;}
+.birthstone .type a.type06{background-position:-540px 0;}
+.birthstone .type a.type07{background-position:0 -125px;}
+.birthstone .type a.type08{background-position:-108px -125px;}
+.birthstone .type a.type09{background-position:-216px -125px;}
+.birthstone .type a.type10{background-position:-324px -125px;}
+.birthstone .type a.type11{background-position:-432px -125px;}
+.birthstone .type a.type12{background-position:-540px -125px;}
+
+.birthstone .conts .stonebox{border:solid 3px #e1e1e1; padding:20px; margin-top:30px; float:left;}
+.birthstone .conts .stonebox .title{ border-bottom:dotted 1px #e1e1e1; padding-bottom:10px; }
+.birthstone .conts .stonebox .title dt{ float:left; background:url(../images/member/bullet2.png) no-repeat 0 20%; padding-left:20px; margin-right:6px; color:#605ca8; font-size:15px; font-weight:bold;}
+.birthstone .conts .stonebox .title dd{color:#363636; font-size:11px; padding-top:2px; }
+.birthstone .conts .stonebox .result{ margin-top:20px; letter-spacing:-0.2px; line-height:20px; color:#5a5a5a; clear:both;}
+
+
+
+
+/*타로점성술*/
+.tarot box,
+.tarot2 box{margin-left:10px; clear:both;}
+.tarot .text{float:left; width:489px; height:103px; margin-left: 150px;/* margin-bottom: 80px; */background:url(../images/free/tarot_text.png) no-repeat top center; text-indent:-9999px;}
+.tarot .pack{ position:relative; height:300px; margin-top:50px;  padding: 120px 0px 0px 100px;}
+.tarot .pack li{float:left; width:144px; height:252px; background:url(../images/free/tarot_card.jpg) no-repeat 0 0; display:block; text-indent:-10000em; cursor:pointer; position:absolute;}
+.tarot .pack .card01{margin-top:30px;}
+.tarot .pack .card02{ margin-left:110px; margin-top:30px;}
+.tarot .pack .card03{ margin-left:220px; margin-top:30px;}
+.tarot .pack .card04{ margin-left:330px; margin-top:30px;}
+.tarot .pack .card05{ margin-left:440px; margin-top:30px;}
+
+.tarot .pack .on{margin-top:0;}
+.tarot .bt{ text-align:center; padding-top:10px; }
+
+/*타로점성술_결과보기*/
+.tarot2 .conts dl{ text-align:center;}
+.tarot2 .conts .cardtit{width:241px; height:33px; text-align:center; background:url(../images/free/tarot_cardtit_bg.png) no-repeat 0 10px; padding-top:20px; padding-bottom:20px;color:#FFF; font-weight:bold; margin: 0 260px;}
+.tarot2 .conts{ padding:20px;}
+.tarot2 .conts .result p{background:#f9fafc; color:#4a4287; height:30px; border-right:solid 1px #e1e1e1;}
+.tarot2 .conts .result em{ padding-left:15px;  font-weight:normal; color:#363636; }
+.tarot2 .conts .result .story_bx{ padding:20px;  clear:both; background:#f5f5f5; width:665px;  margin-left: 30px;}
+.tarot2 .conts .result .story_bx em{letter-spacing:-0.2px; line-height:20px; color:#5a5a5a;}
+.tarot2 .conts .result .front{ background:url(../images/free/tarot_bg1.gif) 0 0; width:675px; height:25px;  font-weight:bold; margin-bottom:10px; margin-left: 30px;padding:15px 10px 0 20px;}
+.tarot2 .conts .result .back{ background:url(../images/free/tarot_bg2.gif) 0 0; width:675px; height:25px;  font-weight:bold; margin-left: 30px;padding:15px 10px 0 20px; margin-bottom:20px;}
+
+
